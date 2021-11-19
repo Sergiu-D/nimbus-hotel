@@ -1,0 +1,21 @@
+.cta{
+    display: inline-block;
+    max-width: fit-content;
+    padding: 1.5rem 2rem;
+    background-color: $color-primary;
+    transition: transform .2s ease;
+
+    & .arrow{
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+    &:hover .arrow{
+        transform: translateX(3px);
+    }
+    &:active .arrow{
+        // transform: translateY(5px);
+        transform: translateX(10px);
+    }
+
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="/img/logo/logo.png" />
+
+    <!-- FONT -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE SHEET -->
+
+    <link rel="stylesheet" href="scss/main.css" />
+
+    <title>Nimbus Hotel</title>
+  </head>
+  <body>
+    <header class="header-home fh-container">
+      <div class="header-home__video">
+        <video
+          src="img/header-bg.mp4"
+          autoplay
+          muted
+          loop
+          class="video"
+        ></video>
+      </div>
+
+      <!-- Hamburget menu -->
+      <div id="navigation-btn" class="navigation__btn-container">
+        <span
+          id="navigation-btn--line"
+          class="navigation__btn-container--line"
+        ></span>
+      </div>
+
+      <nav id="navigation" class="navigation">
+        <a href="./index.html">
+          <img
+            src="/img/logo/nimbus-hote-logo.png"
+            alt="logo"
+            class="navigation__logo"
+          />
+        </a>
+        <ul class="navigation__list">
+          <li><a href="#">home</a></li>
+          <li><a href="./pages/about.html">about us</a></li>
+          <li><a href="./pages/contact.html">contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-home__hero">
+        <h1 class="header-home__hero-title">
+          The best hotel you will ever need
+        </h1>
+        <p class="header-home__hero-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
+          ad.
+        </p>
+        <a href="#" class="cta">Contact Us <span class="arrow">&rarr;</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="about fv-container">
+        <div class="about__description">
+          <h4 class="about__description-section">about us</h4>
+
+          <h2 class="about__description-title">
+            Trust and quality are our atuus
+          </h2>
+
+          <div class="about__description-paragraph">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <a href="#" class="cta"
+            >read more <span class="arrow">&rarr;</span></a
+          >
+        </div>
+
+        <div class="about__photos">
+          <img
+            src="img/hotel/resort.jpg"
+            alt="resort"
+            class="about__photos-resort"
+          />
+          <img
+            src="img/hotel/lobby.jpg"
+            alt="lobby"
+            class="about__photos-lobby"
+          />
+          <img src="img/hotel/room.jpg" alt="room" class="about__photos-room" />
+        </div>
+      </section>
+      <!--end About section -->
+      <!-- Features Section -->
+      <section class="features">
+        <div class="fh-container">
+          <h3 class="features__section-name">Features</h3>
+          <h2 class="features__title">We bring you the finest details</h2>
+
+          <div class="features__cards">
+            <div class="features__cards-card">
+              <div class="features__cards-card--icon-box">
+                <svg class="features__cards-card--icon">
+                  <use xlink:href="img/icons-sprite.svg#wifi"></use>
+                </svg>
+              </div>
+              <h3 class="features__cards-card--title">
+                Free Wifi to say connected
+              </h3>
+              <p class="features__cards-card--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="features__cards-card">
+              <div class="features__cards-card--icon-box">
+                <svg class="features__cards-card--icon">
+                  <use xlink:href="img/icons-sprite.svg#tv-monitor"></use>
+                </svg>
+              </div>
+              <h3 class="features__cards-card--title">
+                4k Television and Netflix included
+              </h3>
+              <p class="features__cards-card--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="features__cards-card">
+              <div class="features__cards-card--icon-box">
+                <svg class="features__cards-card--icon">
+                  <use xlink:href="img/icons-sprite.svg#towels"></use>
+                </svg>
+              </div>
+              <h3 class="features__cards-card--title">
+                Spa, were you can relax
+              </h3>
+              <p class="features__cards-card--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="features__cards-card">
+              <div class="features__cards-card--icon-box">
+                <svg class="features__cards-card--icon">
+                  <use xlink:href="img/icons-sprite.svg#bed"></use>
+                </svg>
+              </div>
+              <h3 class="features__cards-card--title">Spatious rooms</h3>
+              <p class="features__cards-card--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Features Section -->
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="testimonials__content">
+          <div class="testimonials__content-box">
+            <div class="testimonials__content--section">
+              <h4>testimonials</h4>
+            </div>
+            <div class="testimonials__content--title">
+              <h2>We trust our customers and they trust us too</h2>
+            </div>
+            <div class="testimonials__content--user">
+              <img
+                src="img/user/54.jpg"
+                alt="user1"
+                class="testimonials__content--user-photo"
+              />
+              <div class="testimonials__content--user-details">
+                <h3 class="testimonials__content--user-name">Janine Doe</h3>
+                <h3 class="testimonials__content--user-profession">
+                  IT Engineer
+                </h3>
+              </div>
+            </div>
+            <p class="testimonials__content--review">
+              I'm very glad I had the opportunity to visit this hotel. The stuff
+              is very friendly and I will definetly visit the hotel again next
+              year.
+            </p>
+          </div>
+          <div class="testimonials__content--photo">
+            <img src="img/hotel/lobby.jpg" alt="hotel lobby" />
+          </div>
+        </div>
+      </section>
+      <!-- end Testimonials Section -->
+      <!-- Restaurant Section -->
+      <section class="restaurant fh-container">
+        <h3>restaurant</h3>
+        <h2 class="restaurant__title">
+          Explore our menu and eat what you whant
+        </h2>
+        <div class="restaurant__dishes">
+          <div class="restaurant__dishes-dish">
+            <img
+              src="img/restaurant/breakfast.jpg"
+              alt="breakfast dish"
+              class="restaurant__dishes--photo"
+            />
+            <div class="restaurant__dishes--description">
+              <h3>breakfast</h3>
+              <h3 class="restaurant__dishes--title">Fresh Breakfast</h3>
+              <p class="restaurant__dishes--paragraph">
+                Fresh food directly from our restaurant ready coocked for you
+                and you familly
+              </p>
+            </div>
+          </div>
+          <div class="restaurant__dishes-dish">
+            <img
+              src="img/restaurant/lunch.jpg"
+              alt="lunch dish"
+              class="restaurant__dishes--photo"
+            />
+            <div class="restaurant__dishes--description">
+              <h3>breakfast</h3>
+              <h3 class="restaurant__dishes--title">Fresh Breakfast</h3>
+              <p class="restaurant__dishes--paragraph">
+                Fresh food directly from our restaurant ready coocked for you
+                and you familly
+              </p>
+            </div>
+          </div>
+          <div class="restaurant__dishes-dish">
+            <img
+              src="img/restaurant/dinner.jpg"
+              alt="dinner dish"
+              class="restaurant__dishes--photo"
+            />
+            <div class="restaurant__dishes--description">
+              <h3>breakfast</h3>
+              <h3 class="restaurant__dishes--title">Fresh Breakfast</h3>
+              <p class="restaurant__dishes--paragraph">
+                Fresh food directly from our restaurant ready coocked for you
+                and you familly
+              </p>
+            </div>
+          </div>
+          <div class="restaurant__dishes-dish">
+            <img
+              src="img/restaurant/dessert.jpg"
+              alt="dessert dish"
+              class="restaurant__dishes--photo"
+            />
+            <div class="restaurant__dishes--description">
+              <h3>breakfast</h3>
+              <h3 class="restaurant__dishes--title">Fresh Breakfast</h3>
+              <p class="restaurant__dishes--paragraph">
+                Fresh food directly from our restaurant ready coocked for you
+                and you familly
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Restaurant Section -->
+
+      <!-- Photo Section -->
+      <section class="photo">
+        <div class="fh-container">
+          <h3>photos</h3>
+          <h2 class="photo__title">
+            See our latest photos from restaurant and hotel
+          </h2>
+        </div>
+        <div class="photo__wrapper">
+          <img
+            src="img/hotel/resort.jpg"
+            alt="resort"
+            class="photo__wrapper-img"
+          />
+          <img
+            src="img/hotel/top-view.jpg"
+            alt="resort"
+            class="photo__wrapper-img"
+          />
+          <img
+            src="img/hotel/room.jpg"
+            alt="resort"
+            class="photo__wrapper-img"
+          />
+          <img
+            src="img/hotel/beach.jpg"
+            alt="resort"
+            class="photo__wrapper-img"
+          />
+        </div>
+      </section>
+      <!-- end Photo Section -->
+    </main>
+    <footer class="footer">
+      <div class="footer--wrapper fv-container">
+        <div class="footer--wrapper__description">
+          <h4 class="footer--wrapper__description-title">Nimbus Hotel</h4>
+          <p class="footer--wrapper__description-paragraph">
+            Our hotel is an image of quality and profesionalism combined with
+            hard work and precision. You can expect only the best services from
+            our staff.
+          </p>
+          <div class="footer--wrapper__description-social">
+            <a href="http://facebook.com">
+              <svg class="footer--wrapper__description-icon">
+                <use xlink:href="img/icons-sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a href="http://twitter.com">
+              <svg class="footer--wrapper__description-icon">
+                <use xlink:href="img/icons-sprite.svg#twitter"></use>
+              </svg>
+            </a>
+            <a href="http://pinterest.com">
+              <svg class="footer--wrapper__description-icon">
+                <use xlink:href="img/icons-sprite.svg#pinterest"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer--wrapper__links">
+          <h3 class="footer--wrapper__links-title">Links</h3>
+          <a href="#" class="footer--wrapper__links-link">Home</a>
+          <!-- <a href="#" class="footer--wrapper__links-link">Rooms</a>
+          <a href="#" class="footer--wrapper__links-link">Restaurant</a> -->
+          <a href="#" class="footer--wrapper__links-link">About us</a>
+          <a href="#" class="footer--wrapper__links-link">Contact</a>
+        </div>
+        <div class="footer--wrapper__contact">
+          <h3 class="footer--wrapper__contact-title">Contact Info</h3>
+          <div class="footer--wrapper__contact--box">
+            <svg class="footer--wrapper__contact-icon">
+              <use xlink:href="img/icons-sprite.svg#mail"></use>
+            </svg>
+            <p class="footer--wrapper__contact-paragraph">nimbus@hotel.com</p>
+          </div>
+          <div class="footer--wrapper__contact--box">
+            <svg class="footer--wrapper__contact-icon">
+              <use xlink:href="img/icons-sprite.svg#telephone"></use>
+            </svg>
+            <p class="footer--wrapper__contact-paragraph">+0 542 450 6854</p>
+          </div>
+          <div class="footer--wrapper__contact--box">
+            <svg class="footer--wrapper__contact-icon">
+              <use xlink:href="img/icons-sprite.svg#map-pin"></use>
+            </svg>
+            <p class="footer--wrapper__contact-paragraph">Palma, Spain</p>
+          </div>
+        </div>
+      </div>
+      <!-- end Footer Wrapper -->
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

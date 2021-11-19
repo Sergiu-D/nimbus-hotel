@@ -1,0 +1,46 @@
+.about-header {
+  & > .small__header--img {
+    background: url("/img/hotel/top-view.jpg");
+  }
+
+  &--title {
+    display: block;
+    margin: auto;
+    color: white;
+  }
+}
+
+.about-content {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 5rem 0;
+  text-align: center;
+
+  &--title {
+    margin-bottom: 5rem;
+  }
+  &--text {
+    text-align: left;
+    line-height: 3rem;
+  }
+
+  &--description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10rem;
+
+    p {
+      flex: 1 1 40%;
+    }
+    img {
+      max-width: 70rem;
+      min-width: 30rem;
+
+      margin: 0 auto;
+    }
+  }
+}

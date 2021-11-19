@@ -1,0 +1,33 @@
+ 
+ /////////// HEADER ////////
+ 
+    <div class="content">
+        <header class="header-home">
+            <div class="header-home__video">
+                <video src="img/header-bg.mp4" autoplay muted loop></video>
+            </div>
+            <div class="header-home__content">
+                <div class="navigation">
+                    <img src="img/logo/Nimbus Hote Logo.png" alt="logo" class="navigation__logo">
+                    <ul class="navigation__list">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">rooms</a></li>
+                        <li><a href="#">restaurant</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="header-home__hero">
+                    <h1 class="header-home__hero-title">The best hotel you will ever need</h1>
+                    <p class="header-home__hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad.</p>
+                    <a href="#" class="cta">Contact Us <span class="arrow">&rarr;</span></a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+////////// BUTTON //////////
+
+<a href="#" class="cta">Contact Us <span class="arrow">&rarr;</span></a>

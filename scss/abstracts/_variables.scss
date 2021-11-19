@@ -1,0 +1,41 @@
+//---COLORS
+
+$color-primary: #5863f8;
+$color-primary-light: #f8f8f8;
+$color-primary-dark: #121212;
+
+$color-grey: #ebebeb;
+$color-grey-dark: #b1b1b1;
+
+$color-white: #fff;
+$color-black: #000;
+
+//---FONT FAMILY
+$default-font-family: "Poppins", sans-serif;
+
+// FONT SIZE
+
+$default-font-size-h1: 6.2rem;
+$default-font-size-h2: 4.2rem;
+$default-font-size-h3: 1.8rem;
+$default-font-size-h4: 1.6rem;
+$default-font-size-p: 1.4rem;
+
+//--FONT WEIGHT
+
+$default-font-weight-regular: 400;
+$default-font-weight-medium: 500;
+$default-font-weight-semi-bold: 600;
+$default-font-weight-bold: 700;
+$default-font-weight-extra-bold: 800;
+
+//---LINE HEIGHT
+$default-line-height-h1: 7.3rem;
+$default-line-height-h2: 5.6rem;
+$default-line-height-h3: 2.7rem;
+$default-line-height-p: 2.1rem;
+
+//--- Media Queries
+$media-query-small: 576px;
+$media-query-medium: 768px;
+$media-query-large: 1024px;
