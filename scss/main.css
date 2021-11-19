@@ -260,9 +260,9 @@ ul {
 .about__photos {
   display: -ms-grid;
   display: grid;
-  /* -ms-grid-columns: (1fr)[2]; */
+
   grid-template-columns: repeat(2, 1fr);
-  /* -ms-grid-rows: (2fr)[2]; */
+
   grid-template-rows: repeat(2, 2fr);
   grid-gap: 2rem;
 }
@@ -596,9 +596,9 @@ ul {
       from(rgba(0, 0, 0, 0.6)),
       to(rgba(0, 0, 0, 0.6))
     ),
-    url("/img/hotel/relax.jpg");
+    url("../../img/hotel/relax.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/img/hotel/relax.jpg");
+    url("../../img/hotel/relax.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -819,7 +819,7 @@ ul {
 }
 
 .about-header > .small__header--img {
-  background: url("/img/hotel/top-view.jpg");
+  background: url("../../img/hotel/top-view.jpg");
 }
 
 .about-header--title {
@@ -877,7 +877,7 @@ ul {
 }
 
 .contact-header > .small__header--img {
-  background: url("/img/hotel/lobby.jpg");
+  background: url("../../img/hotel/lobby.jpg");
   background-position: center;
 }
 
