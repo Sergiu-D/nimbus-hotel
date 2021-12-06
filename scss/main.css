@@ -616,7 +616,7 @@ ul {
 }
 
 .features__cards-card {
-  width: 30rem;
+  width: 28rem;
   background-color: #fff;
   text-align: center;
   padding: 4rem;
@@ -738,13 +738,22 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 3rem;
 }
 
+.restaurant__dishes > * {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
 .restaurant__dishes-dish {
-  min-width: 30rem;
+  min-width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -853,16 +862,9 @@ ul {
   gap: 10rem;
 }
 
-.about-content--description > * {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-}
-
 .about-content--description p,
 .about-content--description img {
-  max-width: 60rem;
+  max-width: 55rem;
   min-width: 30rem;
   margin: 0 auto;
 }
